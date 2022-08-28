@@ -45,49 +45,11 @@ public class MainActivity extends AppCompatActivity {
 
     public View.OnClickListener mCorkyListener = new View.OnClickListener() {
         public void onClick(View v) {
-            modelService.customerDetSave();
-        Log.d("supriya", "Onclick Action Done");
+            //modelService.customerDetSave();
+            modelService.getAllCustomers();
         }
     };
-    public void callRestAPIGET(){
-        Log.d("supriya", "Call Rest api method");
-        RequestParams rp = new RequestParams();
-        // rp.add("username", "aaa"); rp.add("password", "aaa@123");
-        final String url = "api/customers/";
-        JSONObject obj = null;
-        HttpUtils.get(url, rp, new JsonHttpResponseHandler() {
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                // If the response is JSONObject instead of expected JSONArray
-                Log.d("supriya", "---------------- this is response : " + response);
 
-                try {
-                    JSONObject serverResp = new JSONObject(response.toString());
-                    Log.d("supriya", "Response : "+serverResp);
-                } catch (JSONException e) {
-                    Log.d("supriya","Error Occurred "+e);
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
-                }
-            }
-            @Override
-            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                super.onFailure(statusCode, headers, responseString, throwable);
-                Log.d("supriya", "OnFailure Method"+throwable.toString());
-                Log.d("supriya", "Response body"+responseString);
-                throwable.printStackTrace();
-            }
-
-
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONArray timeline) {
-                Log.d("supriya","OnSuccess method");
-                // Pull out the first event on the public timeline
-
-            }
-        });
-
-    }
 
 
 

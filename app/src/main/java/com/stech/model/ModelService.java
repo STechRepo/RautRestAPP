@@ -14,7 +14,7 @@ import cz.msebera.android.httpclient.entity.StringEntity;
 
 public class ModelService {
     public void customerDetSave() {
-        Log.d("supriya", "Call Rest api method");
+        Log.d("RautLog", "[ModelService :: customerDetSave()] -> Start ");
         PreparePayLoad customerPayload = new PreparePayLoad();
         try {
             JSONObject payLoad = customerPayload.customerSaveObj();
@@ -25,9 +25,18 @@ public class ModelService {
             entity.setContentType(content_Type);
             RautConsumeService consumer = new RautConsumeService();
             consumer.CustomerSavePost(url,entity,content_Type);
+            Log.d("RautLog", "[ModelService :: customerDetSave()] -> All Done ");
         } catch (UnsupportedEncodingException e) {
             throw new RuntimeException(e);
         }
 
+    }
+
+    public void getAllCustomers() {
+        Log.d("RautLog", "[ModelService :: getAllCustomers()] -> Start ");
+        String url = Constants.GET_ALL_CUSTOMERS_URL;
+        RautConsumeService consumer = new RautConsumeService();
+        consumer.getAllCustomers(url);
+        Log.d("RautLog", "[ModelService :: getAllCustomers()] -> All Done ");
     }
 }

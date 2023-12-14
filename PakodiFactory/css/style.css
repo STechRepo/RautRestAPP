@@ -1,0 +1,556 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding:0px; margin:0px; border:0px;}
+
+a {text-decoration: none;}
+
+a:hover{text-decoration: none;}
+
+.col-md-6 img {float:left; margin:1px;}
+
+.text-size{font-weight:lighter !important; font-size:13px}
+
+@font-face {font-family: 'SegoeUIRegular';	src: url('../fonts-sutisoft/SegoeUIRegular.ttf');}
+
+@font-face {font-family: 'SegoeUILight'; src: url('../fonts-sutisoft/SegoeUILight.ttf');
+format('ttf'); font-weight: lighter; font-style: normal; }
+
+@font-face {font-family: 'SegoeUISemiBold';	src: url('../fonts-sutisoft/SegoeUISemiBold.ttf');}
+
+@font-face {font-family: 'SegoeUIItalic';	src:url(../fonts-sutisoft/segoeuii.ttf);}
+
+@font-face {font-family: 'Scriptin'; src:url(../fonts-sutisoft/SCRYPTIN.TTF);}
+
+@font-face {font-family: 'Gothicb'; src:url(../fonts-sutisoft/GOTHIC.TTF);}
+
+@font-face {font-family: 'Mono'; src:url(../fonts-sutisoft/MTCORSVA.TTF);}
+
+@font-face {font-family: 'Calist'; src:url(../fonts-sutisoft/CALIST.TTF);}
+
+body{padding:0px; margin:0px; font-family: "SegoeUIRegular", arial, sans-serif !important; font-size:15px !important; color:#333333; line-height:22px; font-weight:bold; background:#fff;}
+
+h1{font-family: 'SegoeUIItalic'!important; font-size:170% !important; color:#393939 !important; padding:25px 0px 10px 0px; text-align:center; font-style:italic; font-weight:normal; }
+
+h2{font-family: 'SegoeUIItalic'!important; font-size:150% !important; color:#794400 !important; padding:10px 0 10px; text-align:center; font-style:italic;}
+
+h2 a:hover{text-decoration:none !important; color:#ec1a27;}
+
+h3{font-family: "SegoeUILight", arial, sans-serif !important; font-size:160% !important; color:#333 !important; padding:0px 0px 10px 0px; text-align:center;}
+
+h4{font-family: 'Scriptin' !important; font-size:200% !important; color:#f77d06 !important; padding: 0px; text-align:center; font-style:italic;}
+
+h5{font-family: 'Gothicb' !important; font-size:130% !important; color:#870a08 !important; text-align:left; font-weight:normal !important; padding:0px; width:100%;}
+
+.navbar { position: relative; min-height: 150px !important; margin-bottom: 0px !important; border: 1px solid #ddd;}
+
+.icon-box{text-align:center !important;}
+
+.sales-no{font-family: "SegoeUILight", arial, sans-serif !important; float:left; color:#999999; font-weight:normal; font-size:180% !important; position:relative;}
+
+.phone {width:190px; height:150px; border-left:1px solid #ccc; padding:40px 0px 0px 5px; line-height:50px; margin-left:-20px; position:absolute; left:0px; top:0px; font-size:70% !important;  font-family: 'SegoeUIItalic'; color:#ea2028;}
+
+.section-two p{font-family:"SegoeUIRegular", arial, sans-serif; font-size:15px; line-height:22px; color: #444; padding:0px; margin:0px; text-align:justify; font-weight:normal;}
+
+.p-text{font-family: "SegoeUIRegular", arial, sans-serif !important; font-size:19px; color:#333; padding:30px 0px 0px 0px; text-align:center; line-height:30px;}
+
+.nav1{margin-right: 0 !important;}
+
+.header-height{background:#fff !important; padding:0px 0px 0px 0px !important;}
+
+.tab-active{font-size:16px !important; color:#fff !important; font-weight:normal !important; padding: 14px !important;}
+
+.tab-active:hover{color:#333 !important;}
+
+.navbar-default .navbar-nav > li > a{font-weight:normal; font-size:110%; padding:70px 20px 70px 20px !important;font-family: 'SegoeUIItalic'; color:#794500;}
+
+.nav .dropdown-toggle .caret {display: none;}
+
+.nav.nav1.navbar-nav.navbar-right a:hover {background-color:#ea2028 !important; color:#fff !important;}
+
+.banner{width:auto !important; background:url(../images/banner1.jpg) no-repeat center; height:563px; margin:55px 0 10px 0;}
+
+.ft-txt{text-align:center !important; font-size:14px; padding:8px 0; line-height:20px; font-weight:normal; text-decoration:none; color:#666;}
+
+.ft-txt a{text-align:center !important; font-size:14px; padding:8px 0; line-height:20px; font-weight:normal; text-decoration:none; color:#666;}
+
+.ft-txt a:hover{color:#000; text-decoration:none;}
+
+.section-one{background:url(../images2/features-bg.jpg) repeat center #1d82b6 !important; padding-bottom:40px;}
+
+.section-boxes{width:100%; padding:0px 10px 10px 10px;}
+
+.thumbnail-section{float:left; margin:20px 0px 10px 0px;}
+
+.thumbnail img {width:100%;}
+
+.parent-section{width:510px; height:300px; clear:both; position:relative;}
+
+.dropdown-menu>li>a {font-size:13px !important;}
+
+.carousel-indicators {bottom:-14px !important;}
+
+.img-box{text-align:center !important; margin-bottom:8px;}
+
+.cont{margin-top:80px; margin-bottom:80px;}
+
+.cont2{margin-top:80px; margin-bottom:30px;}
+
+.small-img{text-align:center; margin-bottom:8px;}
+
+.about-box img{border:#ddd solid 1px; padding:5px; margin-top:30px;}
+
+.cont p{font-family:"SegoeUIRegular", arial, sans-serif; font-size:15px; line-height:22px; color: #444; padding:0px 0px; margin:0px; text-align:justify; font-weight:normal; line-height:23px;}
+
+.bullets-arrow {float: left; padding: 0 2px; width: 96%;}
+
+.bullets-arrow li { background:url(../images/bullet.png) no-repeat scroll left 12px; color: #282828 !important; font-family: "SegoeUIRegular",arial,sans-serif !important; font-size: 15px; font-weight: normal; line-height: 20px; list-style: outside none none; margin: 0; padding: 5px 5px 5px 20px; text-align: left;}
+
+.menu-bg{background:url(../images/menu-bg.png) no-repeat #eae6dd top fixed; width:100%; padding-bottom:10px;}
+
+.menu-bg3{background:url(../images/menu-bg.png) no-repeat #daa569 top fixed; width:100%; padding-bottom:10px;}
+
+.menu-bg4{background:url(../images/order-bg2.jpg) repeat #ad6d47 top fixed; width:100%; padding-bottom:10px;}
+
+.social-icons{margin-top:50px; padding:0 !important;}
+
+.social-icons a{padding:0 !important;}
+
+.menu-list{width:100%; background:#fcfbfb; -moz-border-radius:3px 3px 3px 3px ; -webkit-border-radius:3px 3px 3px 3px; border-radius:3px 3px 3px 3px; border:#ddd solid 1px; margin-bottom:5px;}
+
+.menu-list:hover{border:#000 solid 1px;} 	
+
+.menu-head{font-family: 'Mono' !important; font-size:200% !important; color:#794400 !important; padding:13px 0; text-align:center; font-style:italic; line-height:25px;}
+
+.price-txt{font-family: 'Calist' !important; font-size:110% !important; color:#f77d06 !important; padding:8px 0; text-align:center; line-height:25px;}
+
+.menu-box{width:100%;}
+
+.menu-item{font-family: 'SegoeUIItalic'!important; font-size:110% !important; color:#595a59 !important; padding:8px 0; text-align:center; line-height:25px; font-style:italic;}
+
+.menu-title{font-family: 'SegoeUIItalic' !important; font-size:120% !important; color:#794400 !important; padding:13px 0; text-align:center; font-style:italic; line-height:45px;}
+
+.map-bg{ padding:6px; border:#ddd solid 1px; text-align:center;}
+
+.add-title{font-family: 'SegoeUIItalic' !important; font-size:120% !important; color:#794400 !important; padding:13px 0; text-align:center; font-style:italic; line-height:25px;}
+
+.add-txt p{font-family:"SegoeUIRegular", arial, sans-serif; font-size:15px; line-height:22px; color: #444; padding:0px 0px; margin:0px; text-align:justify; font-weight:normal; line-height:23px;}
+
+.add-no{font-family: 'SegoeUIItalic' !important; font-size:100% !important; color:#2a73ba !important; padding:13px 0; line-height:25px; font-style:normal;}
+
+.franchising-title3{font-family: 'SegoeUIItalic' !important; font-size:120% !important; color:#2a73ba !important; padding:13px 0; line-height:25px; font-style:italic;}
+
+.map-box{border:#ddd solid 1px; padding:5px 5px 0 5px;}
+
+.menu-bg2{background:url(../images/menu-bg2.jpg) no-repeat #fff top center fixed; width:100%; padding-bottom:10px;}
+
+.menu-list2{width:100%; background:#fff; -moz-border-radius:3px 3px 3px 3px ; -webkit-border-radius:3px 3px 3px 3px; border-radius:3px 3px 3px 3px; border:#ddd solid 1px; margin-bottom:15px; text-align:center; min-height:340px !important;}
+
+.menu-list3{width:100%; background:#fff; -moz-border-radius:3px 3px 3px 3px ; -webkit-border-radius:3px 3px 3px 3px; border-radius:3px 3px 3px 3px; border:#ddd solid 1px; margin-bottom:15px; text-align:center;}
+
+.menu-head2{font-family: 'Mono' !important; font-size:200% !important; color:#6a4125 !important; padding:13px 0; text-align:center; font-style:italic; line-height:25px;}
+
+.contact-form{margin:10px 0 0 0;}
+
+.form-control {display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; font-weight:normal !important; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius:0 !important; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+
+.form-control2 {display: block; width: 100%; height:78px; padding: 6px 12px; font-size: 14px; font-weight:normal !important; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius:0 !important; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; color:#000;}
+	
+.submit-btn{text-align:center; color:#fff !important; background:#0383db !important; padding:7px 16px !important;} 
+
+.footer-bottom{border-top:#ddd solid 1px;}
+
+.franch-box{width:100%; float:left;}
+
+.franchising-title{font-family: 'SegoeUIItalic' !important; font-size:130% !important; color:#794400 !important; padding: 0px 0px 0px 15px; text-align:left; font-style:italic; font-weight:normal;}
+
+.franchising-title2{font-family: 'SegoeUIItalic' !important; font-size:130% !important; color:#794400 !important; padding: 0px 0px 8px 0px; text-align:left; font-style:italic; font-weight:normal;}
+
+.franchising-txt{font-family: 'SegoeUIRegular'; font-size:95% !important; color:#282828 !important; padding: 0px 0px 0px 0px; text-align:left; font-weight:normal; font-style:normal;}
+
+.franch-box{width:100%;}
+
+.fransh-txt{font-family:"SegoeUIRegular", arial, sans-serif; font-size:15px; line-height:22px; color: #444; padding:0px 0px; margin:0px; text-align:justify; font-weight:normal; line-height:23px;}
+
+.back-btn{text-align:center; color:#fff !important; background:#794400 !important; padding:9px 16px !important; font-size:17px !important; font-style:italic !important;font-family: 'SegoeUIItalic'!important;} 
+
+.height{height:333px !important;}
+
+.height2{height:550px !important;}
+
+.height3{height:145px !important;}
+
+.height4{height:370px !important;}
+
+.height5{height:305px !important;}
+
+.order-bg{background:url(../images/order-bg.jpg) no-repeat top fixed; width:100%; padding-bottom:10px;}
+
+.order-bg h5{font-family: 'Gothicb' !important; font-size:250% !important; color:#fff !important; text-align:center; font-weight:normal !important; padding:30px 0; width:100%;}
+
+.form-bg{background:url(../images/form-bg.png) repeat; width:100%; padding:10px; float:left;}
+
+.food-btn{text-align:center; color:#fff !important; background:#e82128 !important; padding:7px 16px !important; font-size:17px !important; font-family: 'SegoeUIItalic'!important; width:100%;} 
+
+.form-control3{display: block; width: 100%; padding: 7px 12px; height:40px; font-size: 14px; font-weight:normal !important; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius:0 !important; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+
+.icons{text-align:center; margin:70px 0 20px 0;}
+
+.icons h1{font-family: 'SegoeUIRegular' !important; font-size:140% !important; color:#6b3f22 !important; text-align:center; font-weight:normal !important; padding:0px 0; font-style:normal !important;}
+
+.icons p{font-family: 'SegoeUIRegular' !important; font-size:110% !important; color:#666 !important; text-align:center; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.menu-head3{font-family: 'Mono' !important; font-size:200% !important; color:#fff !important; padding:13px 0; text-align:left; font-style:italic; line-height:25px;}
+
+.white-bg{background:#fff; margin:0 0 10px 0;}
+
+.table{margin-bottom:0px !important;}
+
+.white-bg .table td:hover{background:#eee;}
+
+.add-icon{color:#38b48c; font-size:25px !important;}
+
+.add-icon2{color:#ff8e08; font-size:25px !important;}
+
+.cart-icon1{color:#fff; font-size:23px !important; float:left;}
+
+.cart-icon2{color:#fff; font-size:23px !important; float:right;}
+
+.close-icon{color:#dadada; font-size:25px !important;}
+
+.order-title{font-family: 'Gothicb' !important; font-size:110% !important; color:#0092de !important; text-align:left; font-weight:bold !important; padding:0px 0; line-height:23px;}
+
+.order-txt{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.order-txt2{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0 0 23px !important; line-height:23px;}
+
+.order-txt3{font-family: 'SegoeUIRegular' !important; font-size:150% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.order-txt4{font-family: 'SegoeUIRegular' !important; font-size:150% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0 0 23px !important; line-height:23px;}
+
+.cart{background:#fff; margin:50px 0 0 0; padding:10px;}
+
+.cart2{background:#fff; margin:0px 0 0 0; padding:10px;}
+
+.cart__header {color: #5d6266; font-size: 20px; font-weight: normal; position: relative; text-align:left; line-height:23px;}
+
+.cart .cart__header__title {border-bottom: 1px solid #e9e4dc; padding-bottom: 10px; padding-right: 39px;}
+
+.line{border-bottom: 1px solid #e9e4dc; margin:3px 0;}
+
+.list-group { padding-left: 0; margin-bottom: 0px !important;}
+
+.list-group-item { position: relative; display: block; padding: 10px 15px 10px 0 !important; margin-bottom: -1px; background-color: #fff; border: 0px solid #ddd !important; text-align:left; font-weight:normal;}
+
+.list-group-item:first-child {border-top-left-radius: 0px !important; border-top-right-radius: 4px !important;}
+
+.list-group-item:last-child {margin-bottom: 0; border-bottom-right-radius: 4px !important; border-bottom-left-radius: 4px !important;}
+
+.checkout-btn{text-align:center; color:#fff !important; background:#337ab7 !important; padding:9px 16px !important; font-size:17px !important; font-family: 'SegoeUIRegular'!important; width:100%; border:none !important;}
+
+.checkout-btn2{text-align:center; color:#fff !important; background:#337ab7 !important; padding:9px 16px !important; font-size:17px !important; font-family: 'SegoeUIRegular'!important; width:20%; border:none !important; margin-bottom:10px !important;}
+
+.checkout-btn3{text-align:center; color:#fff !important; background:#337ab7 !important; padding:9px 16px !important; font-size:17px !important; font-family: 'SegoeUIRegular'!important; border:none !important; margin:15px auto !important;}
+
+.cart table {font-size: 13px; line-height: 16px;}
+
+.cart2 table {font-size: 13px; line-height: 16px;}
+
+.count{ border: 1px solid #bebebe; color: #39c; display: block; font-size: 15px; font-weight: 700; height: 28px; line-height: 15px; padding: 5px; position: relative; text-align: center; margin-right:8px; width: 28px; float:left;}
+
+.count2{ border: 1px solid #bebebe !important; color: #39c !important; display: block !important; font-size: 15px !important; font-weight: 700 !important; height: 23px !important; line-height: 15px; padding:0px !important; position: relative !important; text-align: center !important; margin-right:8px !important; width: 28px; float:left !important; border-radius:0px !important; margin-top:8px; }
+
+.cart-select-title{font-family: 'SegoeUIRegular' !important; font-size:120% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0; line-height:23px; float:left;}
+
+.cart-select-title2{font-family: 'SegoeUIRegular' !important; font-size:120% !important; color:#282828 !important; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.sub-title{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.sub-title2{font-family: 'SegoeUIRegular' !important; font-size:180% !important; color:#282828 !important; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.sub-price{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.sub-price2{font-family: 'SegoeUIRegular' !important; font-size:180% !important; color:#282828 !important; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.step-bg{background:#fff; margin:80px 0 10px 0;}
+
+.bs-wizard {margin-top:10px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px; font-weight:normal;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+.total-bg{background:#eee; margin:10px 0px !important; padding:10px 0px;}
+
+.mrng{margin:10px; 0;}
+
+.txt{font-family: 'SegoeUIRegular' !important; font-size:130% !important; color:#39c !important; font-weight:normal !important; padding:10px 0 !important; line-height:23px;}
+
+.txt2{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#999 !important; font-weight:normal !important; line-height:23px; text-align:left;}
+
+.add-bg{background:#fff; margin:80px 0px 0px 0;}
+
+.add-bg .form-control {display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; font-weight:normal !important; line-height: 1.42857143; color: #555; background-color: #eee; background-image: none; border: 1px solid #ccc; border-radius:0 !important; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; margin-bottom:7px;}
+
+.title{font-family: 'SegoeUIRegular' !important; font-size:130% !important; color:#39c !important; font-weight:normal !important; font-style:normal; line-height:23px; text-align:left; padding:10px 0;}
+
+.title2{font-family: 'SegoeUIRegular' !important; font-size:130% !important; color:#39c !important; font-weight:normal !important; font-style:normal; line-height:23px; text-align:center; padding:10px 0;}
+
+small{font-family: 'SegoeUIRegular' !important; font-size:80% !important; color:#666 !important; font-weight:normal !important; padding:0px 0 !important; line-height:20px;}
+
+.border{border:#ddd solid 1px; padding:0 11px 11px 11px;}
+
+.fixed{position:fixed !important;}
+
+.cart-bg{background:url(../images/blank-bg.png) repeat center !important; padding:20px 0; width:100%; float:left}
+
+.hide-lg{display:none !important;}
+
+.hide-md{display:none !important;}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.banner-img {margin-top:110px;}
+}
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {position: relative; height: 100vh;}
+
+.fade-carousel .carousel-inner .item {height: 100vh;}
+
+.fade-carousel .carousel-indicators > li {margin: 0 2px; background-color: #fff; border-color: #ddd; opacity: .7;}
+
+.fade-carousel .carousel-indicators > li.active {width: 10px; height: 10px; opacity: 1;}
+
+.card0 {box-shadow: 0px 4px 8px 0px #757575; border-radius: 0px;}
+
+.card2 { margin: 0px 40px;}
+
+.border-line { border-right: 1px solid #EEEEEE;}
+
+.bg-blue { color: #fff!important; font-size:13px; font-weight:normal; background-color: #1A237E; padding:8px 0;}
+
+.login{padding:30px 200px 10px 200px!important; margin:150px 0 0 0;}
+
+.login .card {position: relative; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; min-width: 0; word-wrap: break-word;
+  background-color: #fff; background-clip: border-box; border: 1px solid rgba(0,0,0,.125); border-radius: .25rem;}
+
+.login .d-flex {display: -ms-flexbox !important; display: flex !important;}
+
+.border-line {border-right: 1px solid #EEEEEE;}
+
+.card2 {margin: 0px 40px;}
+
+.border-0 {border: 0 !important;}
+
+.border-line {border-right: 1px solid #EEEEEE;}
+
+.login label input, textarea{width:auto;}
+
+.login-form{padding:100px 30px !important; font-weight:normal;}
+
+.login-form label{font-weight:normal;}
+
+.login-link a{margin:10px 0;color: #0056b3;}
+
+.login-link .radio, .checkbox{margin-top:0!important;}
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+	
+
+}
+
+@media screen and (max-width: 800px){
+
+.hide{display:none !important;}	
+
+.show-bg{display:block !important;}
+
+}
+@media screen and (max-width: 768px){
+
+.show-bg{display:block !important;}
+
+.hide{display:none;}	
+
+}
+
+/*@media screen and (max-width: 980px){
+
+.hide-md{display:none !important;}
+
+.show-bg{display:none !important;}
+
+}*/
+
+@media screen and (max-width: 640px){
+  
+}
+
+@media (max-width: 1280px) {
+	
+	
+}
+	
+	
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.logo {width:100% !important;}
+
+.navbar-brand{float:none !important;}
+
+.navbar-header{width:20% !important;}
+
+.navbar{min-height:100px !important;}
+
+.navbar-default .navbar-nav > li > a{font-weight:normal; font-size:100%; padding:20px 4px 20px 4px !important;font-family: 'SegoeUIItalic'; color:#794500;}
+
+.nav1{margin-top:6px !important;}
+
+.header-height{padding:20px 0px 20px 0px !important;}
+
+.tab-active{font-size:16px !important; color:#fff !important; font-weight:bold !important;}
+
+.social-icons{margin-left:15px !important; margin-top:10px !important; padding:0 !important;}
+
+.social-icons a{padding:0 !important;}
+
+.height{height:350px !important;}
+
+.icons{margin:10px 0 20px !important;}
+
+.cart {margin: 50px 0 0 690px !important; position: fixed;}
+
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	
+.navbar-default .navbar-nav > li > a{font-weight:normal; font-size:110%; padding:10px 15px 10px 15px !important;font-family: 'SegoeUIItalic'; color:#794500;}
+
+.banner{width:50% !important; background:url(../images/banner1.jpg) no-repeat center;}
+
+.logo {width:50% !important;}
+
+.navbar-brand{float:none !important;}
+
+.navbar{min-height:100px !important;}
+
+.header-height{background:#fff !important; padding:20px 0px 0px 0px !important;}
+
+.carousel { margin-top:10px !important;}
+
+.carousel .item{height:auto !important;}
+
+.social-icons{margin-left:15px !important; margin-top:0 !important; padding:0 !important;}
+
+.social-icons a{padding:0 !important;}
+
+.menu-item{padding-left:30px !important;}
+
+.input-group{margin-bottom:10px !important;}
+
+.icons{margin:10px 0 20px !important;}
+
+.show-bg{display:block !important;}
+
+}
+
+
+@media (max-width: 320px) {
+.col-md-6 img {width: 49%;}
+
+.border-section{min-height: 330px;}
+
+.order-title{font-family: 'Gothicb' !important; font-size:90% !important; color:#0092de !important; text-align:left; font-weight:bold !important; padding:0px 0; line-height:23px;}
+
+.order-txt{font-family: 'SegoeUIRegular' !important; font-size:90% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.order-txt2{font-family: 'SegoeUIRegular' !important; font-size:90% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0 0 23px !important; line-height:23px;}
+
+.order-txt3{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.order-txt4{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0 0 23px !important; line-height:23px;}
+
+.show-bg{display:block !important;}
+
+
+
+}
+
+@media (max-width: 480px) {
+
+.border-section{min-height: 220px;}
+
+}
+@media (max-width: 360px) {
+
+.col-md-6 img {width: 49%;}
+
+.border-section{min-height: 305px;}
+
+.show-bg{display:block !important;}
+
+.order-title{font-family: 'Gothicb' !important; font-size:90% !important; color:#0092de !important; text-align:left; font-weight:bold !important; padding:0px 0; line-height:23px;}
+
+.order-txt{font-family: 'SegoeUIRegular' !important; font-size:90% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.order-txt2{font-family: 'SegoeUIRegular' !important; font-size:90% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0 0 23px !important; line-height:23px;}
+
+.order-txt3{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0; line-height:23px;}
+
+.order-txt4{font-family: 'SegoeUIRegular' !important; font-size:100% !important; color:#282828 !important; text-align:left; font-weight:normal !important; padding:0px 0 0 23px !important; line-height:23px;}
+
+}
+
+/* Custom Gutter Size 
+
+@media (min-width: 768px) { 
+div[class^="col"]{padding-left:5px; padding-right:5px;}
+}
+
+/* Medium devices (desktops, 992px and up) 
+@media (min-width: 992px) {   
+div[class^="col"]{padding-left:10px; padding-right:10px;}
+}
+
+/* Large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px){   
+/*default for desktop
+div[class^="col"]{padding-left:10px; padding-right:10px;}
+}
+
+*/
